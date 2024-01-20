@@ -1,0 +1,113 @@
+/* this h1 css code effects any h1 header with the follwoign styling*/
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    border-color: black;
+}
+
+/*The element selection in css to effect everything within the body 
+with the following styling*/
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
+
+/*This is where I selected just the href div through a class, centering 
+the navigation on the site*/
+.href-div{
+    justify-content: center;
+}
+
+/*Just for fun when you clik on the link it turns red*/
+.hov{
+    font-color: red;
+}
+
+/*Below is the styling of a table on the home page*/
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+tr, th{
+    padding: 5px;
+    text-align: center;
+    border-bottom: 2px solid black;
+}
+/*Using a highlighting effect to indicate poplular packages on site*/
+tr:nth-child(even){
+    background-color: aqua;
+}
+
+tr:hover{
+    background-color: red;
+}
+
+
+/*This is the style for all the images on the site, so they have a look 
+of unison*/
+img{
+    border-radius: 5px;
+    border-color: black;
+}
+
+/*This is an ID selector speciically for the added styling of two h1 headers */
+#box-model{
+    padding: 10px;
+    border-style: solid black;
+    border-width: 3px;
+    border-color: black;
+    margin: 20px;
+    background-color: aqua;
+}
+
+/*Styling of my pric sheet through a specific ID tag*/
+#price-sheet{
+    padding: 5;
+    margin: 5;
+}
+
+
+/*Another use of a class tag to target specific formating
+throughout the site*/
+.standard-spacing{
+    padding: 5px;
+    margin: 20px;
+}
+
+/*Class tag to style the contact box on the conact page*/
+.contact-box{
+    border-style: solid;
+    border-radius: 5px;
+    border-color: black;
+    border-width: 5px;
+    background-color: aqua;
+}
+
+/*Element tag effecting the form on the contact page giving
+it some style to look and flow nice*/
+form{
+    padding: 10px;
+    border-style: solid;
+    border-width: 5px;
+    margin: 20px;
+    background-color: beige;
+
+}
+/*Further styling of the form just effecting the input aspect*/
+input{
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+    font-color: black;
+}
+
+/*Class tag used to underline and size the footer and one header on the about page
+just for fun to see what it did*/
+.footer{
+    text-decoration: underline;
+    font-size: 20px;
+    font-weight: bold;
+}
